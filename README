@@ -1,17 +1,5 @@
 README for Project One
 
-At the conclusion of this programming assignment, participants should be able to:
-
-*       Analyze a basic set of requirements for a problem and derive logical solutions to them
-*       Declare variables
-*       Apply C data types and associated mathematical operators
-*       Comment a program according to class standards
-*       Logically order sequential C statements to solve small problems
-*       Compose a small C language program
-*       Compile a C program using Microsoft Visual Studio 2015
-*       Execute a program
-*       Create basic test cases for a program
-
 Overview & Requirements:
 
 Write a C program that evaluates the equations provided below. All equations should be placed in a single project! The program must prompt the user for inputs to the equations and evaluate them based on the inputs. All variables on the right hand sides of the equations must be inputted by the user. All variables, except for the plaintext_character, encoded_character, and variable a are floating-point values. The plaintext_character and encoded_character variables are characters, and the a variable is an integer. PI, G must be defined as a constant macro (#defined constants). Error checking is not required for your program. You do not need to check for faulty user input or dividing by zero.

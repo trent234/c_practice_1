@@ -1,0 +1,30 @@
+README for Project One
+
+At the conclusion of this programming assignment, participants should be able to:
+
+*       Analyze a basic set of requirements for a problem and derive logical solutions to them
+*       Declare variables
+*       Apply C data types and associated mathematical operators
+*       Comment a program according to class standards
+*       Logically order sequential C statements to solve small problems
+*       Compose a small C language program
+*       Compile a C program using Microsoft Visual Studio 2015
+*       Execute a program
+*       Create basic test cases for a program
+
+Overview & Requirements:
+
+Write a C program that evaluates the equations provided below. All equations should be placed in a single project! The program must prompt the user for inputs to the equations and evaluate them based on the inputs. All variables on the right hand sides of the equations must be inputted by the user. All variables, except for the plaintext_character, encoded_character, and variable a are floating-point values. The plaintext_character and encoded_character variables are characters, and the a variable is an integer. PI, G must be defined as a constant macro (#defined constants). Error checking is not required for your program. You do not need to check for faulty user input or dividing by zero.
+
+    Newton’s Second Law of Motion: force = mass * acceleration
+    Volume of a cylinder: volume_cylinder = PI * radius2 * height
+    Character encoding: encoded_character = (plaintext_character - 'a') + 'A' (note: what happens if plaintext_character is lowercase?)
+    Gravity: force = G * mass1 * mass2 / distance2, where G is the gravitational constant with value 6.67 * 10-11
+    Resistive divider: vout = r2 / (r1 + r2) * vin
+    Distance between two points: distance = square root of ((x1 - x2)2 + (y1 - y2)2) (note: you will need to use sqrt ( ) out of <math.h>)
+    General equation: y = (89 / 27) - z * x + a / (a % 2) (recall: a is an integer; the 89 and 27 constants in the equation should be left as integers initially, but explicitly type-casted as floating-point values)
+
+Expected Results: 
+
+The following console window illustrates inputs and outputs that are appropriate for your program. Your program must display the results in a similar form as shown in the window. The window shows possible results, for the given input tests, for the first two equations only. You will need to display the results for all of the equations!
+
